@@ -25,12 +25,22 @@ Implemente um programa em C++ que atenda aos seguintes critérios:
 
 # 2. Orientações
 
+- Utilize estritamente recursos da linguagem C++.
+- Durante a compilação do seu código fonte, você deverá habilitar a exibição de mensagens de aviso (warnings).
+- Aplique boas práticas de programação. Codifique o programa de maneira legível (com indentação de código fonte, nomes consistentes, etc.). Modularize e comente seu código.
+- Garanta que seu programa funcione de forma correta e eficiente. Pense também nas possíveis entradas que poderão ser utilizadas para testar apropriadamente o seu programa e trate adequadamente possíveis entradas consideradas inválidas.
+- A resolução da questão deve conter um arquivo makefile responsável pela compilação e ligação. 
+- Quando não especificado, a modelagem das classes é livre, ou seja, inclua os atributos que você considerar importantes para resolver a questão. 
+
 # 3. Entrega
+
+Seu arquivo compactado deverá incluir também um arquivo texto README contendo: a identificação completa do aluno; a descrição de como compilar e rodar o programa, incluindo um roteiro de entradas e comandos que destaquem as funcionalidades (a)-(n); a descrição das limitações (caso existam) do programa e  quaisquer dificuldades encontradas. 
 
 ## 3.1 blablabla
 
 # 4. Avaliação
 
+O trabalho será avaliado sob os seguintes critérios: (i) utilização correta e abrangente dos conteúdos vistos anteriormente e nas aulas presenciais da disciplina; (ii) a corretude da execução do programa implementado, que deve apresentar saída em conformidade com a especificação e as entradas de dados fornecidas, e (iii) a aplicação correta de boas práticas de programação, incluindo legibilidade, organização e documentação de código fonte. A presença de mensagens de aviso (warnings) ou de erros de compilação e/ou de execução, a modularização inapropriada e a ausência de documentação são faltas que serão penalizadas. 
 
 ## Authorship
 
