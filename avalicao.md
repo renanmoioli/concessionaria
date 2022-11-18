@@ -21,3 +21,6 @@ Busca por chassi
 Listar veículos produzidos < 90 dias		
 Listar média de veículos por concessionária		
 I) Compilação e warnings		
+
+
+12. O programa deverá permitir listar os dados de todos os veículos de uma concessionária, sobrecarregando-se o operador de inserção em stream (<<).
