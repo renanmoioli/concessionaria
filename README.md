@@ -39,7 +39,7 @@ Implemente um programa em C++ que atenda aos seguintes critérios:
 - Quando não especificado, a modelagem das classes é livre, ou seja, inclua os atributos que você considerar importantes para resolver a questão. 
 
 # 3. Entrega
-
+ 
 Seu arquivo compactado deverá incluir também um arquivo texto README contendo: a identificação completa do aluno; a descrição de como compilar e rodar o programa, incluindo um roteiro de entradas e comandos que destaquem as funcionalidades (a)-(n); a descrição das limitações (caso existam) do programa e  quaisquer dificuldades encontradas. 
 
 ## 3.1 blablabla
