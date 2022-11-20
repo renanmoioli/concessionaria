@@ -17,7 +17,7 @@ Implemente um programa em C++ que atenda aos seguintes critérios:
 
 1. Uma `Concessionária` pode comercializar diversos tipos de `Veículos`: `Automóveis`, `Motos` e `Caminhões`. Cada Concessionária possui um `nome`, `CNPJ` e número de veículos no `estoque`.
 
-2. Todo `Veículo` possui os seguintes campos: `marca`, `preço`, número do `chassi` e ano de `fabricação`. Apenas `Automóveis` possuem um atributo relativo ao `tipo de motor` (gasolina ou elétrico); apenas `Motos` possuem um atributo relativo ao `modelo` (clássico ou esportivo); apenas `Caminhões` possuem um atributo relativo ao `tipo de carga` (comum ou perigosa).
+2. Todo `Veículo` possui os seguintes campos: `marca`, `preço`, número do `chassi` e ano de `fabricação`. Apenas `Automóveis` possuem um atributo relativo ao `tipo de motor` (gasolina ou elétrico); apenas `Motos` possuem um atributo relativo ao `modelo` (clássico ou esportivo); apenas `Caminhões` possuem um atributo relativo ao `tipo de carga` (comum ou perigosa). Considere que os veículos podem ser ordenados pelos últimos 5 dígitos do número de chassi.
 
 3. O programa deverá permitir criar uma `Concessionária`. Exemplo:
 ```
