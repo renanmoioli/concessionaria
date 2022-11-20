@@ -102,12 +102,12 @@ Saindo...
 # 3. Entrega
 * Enviar via repositório (GitHub Classroom) os arquivos solicitados.
 * Incluir um arquivo texto AVALIACAO contendo: 
- * a identificação completa do aluno; 
- * a descrição de como compilar e rodar o programa, incluindo um roteiro de entradas e comandos que destaquem as funcionalidades; 
- * a descrição das limitações (caso existam) do programa e quaisquer dificuldades encontradas.
- * o formulário de autoavaliação preenchido
-* Print da tela demonstrando a compilação bem sucedida
-* Prints de execução do programa demonstrando *todas* as funcionalidades implementadas
+  * a identificação completa do aluno; 
+  * a descrição de como compilar e rodar o programa, incluindo um roteiro de entradas e comandos que destaquem as funcionalidades; 
+  * a descrição das limitações (caso existam) do programa e quaisquer dificuldades encontradas.
+  * o formulário de autoavaliação preenchido
+* Incluir print da tela demonstrando a compilação bem sucedida
+* Incluir prints de execução do programa demonstrando *todas* as funcionalidades implementadas
 
 # 4. Avaliação
 
