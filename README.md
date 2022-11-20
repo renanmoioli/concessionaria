@@ -38,7 +38,7 @@ ERRO - Veículo 9BRBLWHEXG0107721 já adicionado à concessionária IMD_SA
 
 6. O programa deve permitir remover um veículo a partir do número de seu chassi. Exemplo:
 ```
-$ remove-car 9BRBLWHEXG0107721
+$ remove-vehicle 9BRBLWHEXG0107721
 Veículo 9BRBLWHEXG0107721 removido da concessionária IMD_SA
 ```
 
