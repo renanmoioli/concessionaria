@@ -68,5 +68,7 @@
   - 15: Ampla implementação e documentação de arquivos e procedimentos de compilação e teste
  
  # Total
+ 
  **... / 150 ** pontos (sem bônus)
+ 
  **... / 200 ** pontos (com bônus)
