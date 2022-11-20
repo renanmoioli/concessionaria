@@ -1,24 +1,3 @@
-A) Readme, Legibilidade, organização e documentação de código fonte		
-B) Modularização (arquivos de corpo e cabeçalho; funções e métodos)		
-D) Manipulação de arquivos		
-Escrever em arquivo		
-Ler de um arquivo		
-E) Uso consistente de alocação de memória e de TADs		
-Uso de coleções, iteradores e métodos		
-Uso de algoritmo para busca por chassi		
-F) Uso adequado de makefile		
-G) Sobrecarga de funções e operadores; uso de templates; polimorfismo			
-Sobrecarga de operadores para leitura ou escrita em arquivos		
-Uso de templates e polimorfismo                		
-H) Corretude, saída em conformidade com a especificação				
-Criar concessionária e adicionar veículos		
-listar proprietários, frota e valor		
-Busca por chassi		
-Listar veículos produzidos < 90 dias		
-Listar média de veículos por concessionária		
-I) Compilação e warnings		
-
-12. O programa deverá permitir listar os dados de todos os veículos de uma concessionária, sobrecarregando-se o operador de inserção em stream (<<).
 
 # Autoavaliação
 
@@ -48,19 +27,19 @@ I) Compilação e warnings
 - Implementação e uso do comando para busca de veículos `search-vehicle` | **... / 15 - Bônus: ...**
   - 0: não implementado
   - 15: implementado e funcional
-  - bonus +5: implementado com estratégia de busca diferente da busca exaustiva
-  - bonus +5: uso de métodos virtuais para impressão na tela
-  - bonus +5: uso de sobrecarga de operadores para impressão na tela
+  - bonus +10: implementado com estratégia de busca diferente da busca exaustiva
+  - bonus +10: uso de métodos virtuais para impressão na tela
+  - bonus +10: uso de sobrecarga de operadores para impressão na tela
 
 - Implementação e uso do comando `list-concessionaria` | **... / 10 - Bônus: ...**
   - 0: não implementado
   - 10: implementado e funcional   
-  - +5: uso de sobrecarga de operadores para impressão na tela
+  - bonus +10: uso de sobrecarga de operadores para impressão na tela
 
 - Implementação e uso do comando `raise-price` | **... / 10 - Bônus: ...**
   - 0: não implementado
   - 10: implementado e funcional 
-  - +5: implementado com uso de método virtual
+  - bonus +10: implementado com uso de método virtual
 
 - Implementação e uso do comando `save-concessionaria` | **... / 15**
   - 0: não implementado
@@ -89,5 +68,5 @@ I) Compilação e warnings
   - 15: Ampla implementação e documentação de arquivos e procedimentos de compilação e teste
  
  # Total
- **...** pontos (sem bônus)
- **...** pontos (com bônus)
+ **... / 150 ** pontos (sem bônus)
+ **... / 200 ** pontos (com bônus)
