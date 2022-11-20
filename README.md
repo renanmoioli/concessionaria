@@ -23,6 +23,7 @@ Implemente um programa em C++ que atenda aos seguintes critérios:
 ```
 $ create-concessionaria IMD_SA 11.111.111/0001-11 0
 ```
+
 4. O programa deverá permitir que se adicione um veículo, seja ele um automóvel, moto ou caminhão, a uma concessionária. Exemplo: 
 ```
 $ add-car IMD_SA Toyota 100000 9BRBLWHEXG0107721 2019 gasolina
@@ -35,11 +36,13 @@ $ add-car IMD_SA Toyota 100000 9BRBLWHEXG0107721 2019 gasolina
 ERRO - Veículo 9BRBLWHEXG0107721 já adicionado à concessionária IMD_SA
 ```
 
-6. Os veículos de uma concessionária deverão ser mantidos em um único _array_, _vector_ ou _list_, ou ainda alguma outra estrutura de dados que você considere conveniente. 
+6. O programa deve permitir remover um veículo a partir do número de seu chassi. Exemplo:
+```
+$ remove-car 9BRBLWHEXG0107721
+Veículo 9BRBLWHEXG0107721 removido da concessionária IMD_SA
+```
 
-7. A concessionária deve possuir um atributo para o registro de todos os chassis dos seus veículos.
-
-8. O programa deve permitir que se realize uma busca por número de chassi. Caso o veículo pertença à uma concessionária, o programa deve exibir na tela seus atributos. Caso contrário, deve ser exibida uma mensagem indicando a busca sem sucesso. Exemplo:
+7. O programa deve permitir que se realize uma busca por número de chassi. Caso o veículo pertença à uma concessionária, o programa deve exibir na tela seus atributos. Caso contrário, deve ser exibida uma mensagem indicando a busca sem sucesso. Exemplo:
 ```
 $ search-car 9BRBLWHEXG0107721
 Marca: Toyota
@@ -49,36 +52,38 @@ Ano:2019
 Tipo de motor: gasolina
 ```
 
-9. O programa deverá permitir escrever em um arquivo de texto todo o estoque de uma concessionária, incluindo os atributos comuns e particulares de cada veículo. Exemplo:
+8. O programa deverá permitir escrever em um arquivo de texto todo o estoque de uma concessionária, incluindo os atributos comuns e particulares de cada veículo. Exemplo:
 ```
 $ save-concessionaria IMD_SA
 Arquivo IMD_SA.txt criado com sucesso
 ```
 
-10. O programa deverá permitir criar/recuperar os dados de uma concessionária à partir de um arquivo de texto no formato descrito no item anterior. Exemplo:
+9. O programa deverá permitir criar/recuperar os dados de uma concessionária à partir de um arquivo de texto no formato descrito no item anterior. Exemplo:
 ```
 $ load-concessionaria IMD_SA.txt
 Concessionaria IMD_SA criada com sucesso
 ```
 
-11. O programa deve possuir uma função para listar a frota total de cada tipo de veículo e o valor total dos veículos de uma dada concessionária.
+10. O programa deve possuir uma função para listar a frota total de cada tipo de veículo e o valor total dos veículos de uma dada concessionária.
 Exemplo:
 ```
 $ list-concessionaria IMD_SA
 Concessionaria IMD_SA
-Total de Carros: 1; Valor total: R$ 100000
+Total de Automóveis: 1; Valor total: R$ 100000
 Total de Motos: 0; Valor total: R$ 0
 Total de Caminhões: 1; Valor total: R$ 700000
 Valor Total da frota: R$ 800000
 ```
 
-13. O programa deverá permitir que seja dado um aumento de X% ao preço de todos os veículos de uma determinada concessionária. Exemplo:
+11. O programa deverá permitir que seja dado um aumento de [X, 2X, 3X]% ao preço de todos os automóveis, motos e caminhões de uma determinada concessionária, respectivamente. Exemplo:
 ```
 $ raise-price IMD_SA 10
-Aumento de 10% nos preços de veículos da Concessionária IMD_SA realizado
+Aumento de 10% nos preços de automóveis da Concessionária IMD_SA realizado
+Aumento de 20% nos preços de motos da Concessionária IMD_SA realizado
+Aumento de 30% nos preços de caminhões da Concessionária IMD_SA realizado
 ```
 
-14. O programa deverá ser finalizado pelo comando `quit`. Exemplo:
+12. O programa deverá ser finalizado pelo comando `quit`. Exemplo:
 ```
 $ quit
 Saindo...
@@ -91,17 +96,24 @@ Saindo...
 - Aplique boas práticas de programação. Codifique o programa de maneira legível (com indentação de código fonte, nomes consistentes, etc.). Modularize e comente seu código.
 - Garanta que seu programa funcione de forma correta e eficiente. Pense também nas possíveis entradas que poderão ser utilizadas para testar apropriadamente o seu programa e trate adequadamente possíveis entradas consideradas inválidas.
 - A resolução da questão deve conter um arquivo makefile responsável pela compilação e ligação. 
-- Quando não especificado, a modelagem das classes é livre, ou seja, inclua os atributos que você considerar importantes para resolver a questão. 
+- Quando não especificado, a modelagem das classes é livre, ou seja, inclua os atributos que você considerar importantes para resolver a questão.
+- Utilize os recursos e técnicas discutidos ao longo da disciplina. 
 
 # 3. Entrega
- 
-Seu arquivo compactado deverá incluir também um arquivo texto README contendo: a identificação completa do aluno; a descrição de como compilar e rodar o programa, incluindo um roteiro de entradas e comandos que destaquem as funcionalidades (a)-(n); a descrição das limitações (caso existam) do programa e  quaisquer dificuldades encontradas. 
-
-## 3.1 blablabla
+* Enviar via repositório (GitHub Classroom) os arquivos solicitados.
+* Incluir um arquivo texto AVALIACAO contendo: 
+ * a identificação completa do aluno; 
+ * a descrição de como compilar e rodar o programa, incluindo um roteiro de entradas e comandos que destaquem as funcionalidades; 
+ * a descrição das limitações (caso existam) do programa e quaisquer dificuldades encontradas.
+ * o formulário de autoavaliação preenchido
+* Print da tela demonstrando a compilação bem sucedida
+* Prints de execução do programa demonstrando *todas* as funcionalidades implementadas
 
 # 4. Avaliação
 
-O trabalho será avaliado sob os seguintes critérios: (i) utilização correta e abrangente dos conteúdos vistos anteriormente e nas aulas presenciais da disciplina; (ii) a corretude da execução do programa implementado, que deve apresentar saída em conformidade com a especificação e as entradas de dados fornecidas, e (iii) a aplicação correta de boas práticas de programação, incluindo legibilidade, organização e documentação de código fonte. A presença de mensagens de aviso (warnings) ou de erros de compilação e/ou de execução, a modularização inapropriada e a ausência de documentação são faltas que serão penalizadas. 
+* O trabalho será avaliado sob os critérios indicados na planilha de autoavaliação 
+* **apenas trabalhos acompanhados do arquivo AVALIACAO preenchido serão avaliados**
+* **a ausência dos prints de tela implicam em redução de 50% da nota** 
 
 ## Authorship
 
