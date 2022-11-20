@@ -118,7 +118,9 @@ Saindo...
 ## Authorship
 
 **Original problem: Silvio Sampaio**
+
 **Code Snippets: Julio Melo, [julio@imd.ufrn.br](mailto:julio@imd.ufrn.br)**
+
 **Current adaptation: Renan Moioli, [renan.moioli@imd.ufrn.br](mailto:renan.moioli@imd.ufrn.br)**
 
 
