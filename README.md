@@ -45,6 +45,7 @@ Veículo 9BRBLWHEXG0107721 removido da concessionária IMD_SA
 7. O programa deve permitir que se realize uma busca por número de chassi. Caso o veículo pertença à uma concessionária, o programa deve exibir na tela seus atributos. Caso contrário, deve ser exibida uma mensagem indicando a busca sem sucesso. Exemplo:
 ```
 $ search-vehicle 9BRBLWHEXG0107721
+Concessionaria: IMD_SA
 Marca: Toyota
 Preço: R$ 100000 
 Chassi: 9BRBLWHEXG0107721 
