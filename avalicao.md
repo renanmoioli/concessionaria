@@ -1,4 +1,18 @@
 
+# Identificação
+
+* Nome:
+
+* Matrícula:
+  
+# Compilação  
+
+* a descrição de como compilar e rodar o programa, incluindo um roteiro de entradas e comandos que destaquem as funcionalidades 
+
+# Limitações
+
+* a descrição das limitações (caso existam) do programa e quaisquer dificuldades encontradas
+   
 # Autoavaliação
 
 - Modelagem e implementação das classes Concessionária, Veículo, Automóvel, Moto, Caminhão | **... / 10**
@@ -41,13 +55,9 @@
   - 10: implementado e funcional 
   - bonus +10: implementado com uso de método virtual
 
-- Implementação e uso do comando `save-concessionaria` | **... / 15**
+- Implementação e uso do comando `save-concessionaria` e `load-concessionaria` | **... / 30**
   - 0: não implementado
-  - 15: implementado e funcional 
-
-- Implementação e uso do comando `load-concessionaria` | **... / 15**
-  - 0: não implementado
-  - 15: implementado e funcional  
+  - 15: ambos os comandos implementados e funcionais
   
 - Implementação eficiente através do uso de referencias e contêineres da STL | **... / 10**
   - 0: não usou contêiner da STL nem fez uso eficiente dos recursos computacionais
@@ -65,7 +75,7 @@
 - Implementação e documentação de arquivos e procedimentos de compilação e teste | **... / 15**
   - 0: não implementou arquivos e procedimentos de compilação e teste
   - 5: implementou alguns arquivos e procedimentos de compilação e teste (com alguma documentação) 
-  - 15: Ampla implementação e documentação de arquivos e procedimentos de compilação e teste
+  - 15: Ampla implementação e documentação de arquivos e procedimentos de compilação e teste (com exemplos)
  
  # Total
  
