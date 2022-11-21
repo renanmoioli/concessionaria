@@ -93,27 +93,31 @@ Saindo...
 # 2. Orientações
 
 - Utilize estritamente recursos da linguagem C++.
-- Durante a compilação do seu código fonte, você deverá habilitar a exibição de mensagens de aviso (warnings).
-- Aplique boas práticas de programação. Codifique o programa de maneira legível (com indentação de código fonte, nomes consistentes, etc.). Modularize e comente seu código.
-- Garanta que seu programa funcione de forma correta e eficiente. Pense também nas possíveis entradas que poderão ser utilizadas para testar apropriadamente o seu programa e trate adequadamente possíveis entradas consideradas inválidas.
-- A resolução da questão deve conter um arquivo makefile responsável pela compilação e ligação. 
-- Quando não especificado, a modelagem das classes é livre, ou seja, inclua os atributos que você considerar importantes para resolver a questão.
-- Utilize os recursos e técnicas discutidos ao longo da disciplina. 
+- Durante a compilação do seu código fonte, você deverá habilitar a exibição de mensagens de aviso (warnings) e vazamento de memória
+- Aplique boas práticas de programação. Codifique o programa de maneira legível (com indentação de código fonte, nomes consistentes, etc.). Modularize e comente seu código
+- Garanta que seu programa funcione de forma correta e eficiente. Pense também nas possíveis entradas que poderão ser utilizadas para testar apropriadamente o seu programa e trate adequadamente possíveis entradas consideradas inválidas
+- A resolução da questão deve conter um arquivo makefile responsável pela compilação e ligação
+- Quando não especificado, a modelagem das classes é livre, ou seja, inclua os atributos que você considerar importantes para resolver a questão
+- Utilize os recursos e técnicas discutidos ao longo da disciplina
 
 # 3. Entrega
-* Enviar via repositório (GitHub Classroom) os arquivos solicitados.
-* Incluir um arquivo texto AVALIACAO contendo: 
-  * a identificação completa do aluno; 
-  * a descrição de como compilar e rodar o programa, incluindo um roteiro de entradas e comandos que destaquem as funcionalidades; 
-  * a descrição das limitações (caso existam) do programa e quaisquer dificuldades encontradas.
+* Enviar via repositório (GitHub Classroom) os arquivos solicitados
+* Incluir um arquivo texto **avaliacao** contendo: 
+  * a identificação completa do aluno 
+  * a descrição de como compilar e rodar o programa, incluindo um roteiro de entradas e comandos que destaquem as funcionalidades 
+  * a descrição das limitações (caso existam) do programa e quaisquer dificuldades encontradas
   * o formulário de autoavaliação preenchido
 * Incluir print da tela demonstrando a compilação bem sucedida
 * Incluir prints de execução do programa demonstrando *todas* as funcionalidades implementadas
+* **Datas**
+  * 07/12/22: envio parcial (todos os comandos exceto os relacionados a arquivos)
+  * 12/12/22: entrega completa
+  * 08/12/22 e 13/12/22: entrevistas
 
 # 4. Avaliação
 
-* O trabalho será avaliado sob os critérios indicados na planilha de autoavaliação 
-* **apenas trabalhos acompanhados do arquivo AVALIACAO preenchido serão avaliados**
+* O trabalho será avaliado sob os critérios indicados no arquivo **avaliacao**
+* **apenas trabalhos acompanhados do arquivo avaliacao preenchido serão avaliados**
 * **a ausência dos prints de tela implicam em redução de 50% da nota** 
 
 ## Authorship
