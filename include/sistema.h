@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 
-// Sistema deve concentrar todas as operações do Concordo
+// Sistema deve concentrar todas as operações
 class Sistema {
   private:
 		//std::vector<Concessionaria> concessionarias; //um vetor com todos as concessionarias
