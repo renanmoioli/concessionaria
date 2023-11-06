@@ -16,12 +16,12 @@ build/executor.o: src/executor.cpp include/executor.h
 objects: $(OBJECTS)
 
 programa: objects src/programa.cpp
-	g++ -Wall -fsanitize=address -Iinclude $(OBJECTS) src/programa.cpp -o build/programa
+	g++ -Wall -fsanitize=address -Iinclude $(OBJECTS) src/programa.cpp -o bin/programa
 
 clean:
-	rm build/*.o build/programa
+	rm build/*.o bin/programa
 
 all: programa
 
 run:
-	./build/programa
+	./bin/programa
