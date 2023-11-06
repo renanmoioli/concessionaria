@@ -109,16 +109,18 @@ Saindo...
   * o formulário de autoavaliação preenchido
 * Incluir print da tela demonstrando a compilação bem sucedida
 * Incluir prints de execução do programa demonstrando *todas* as funcionalidades implementadas
+* Enviar um arquivo .zip com o repositório completo (sem o executável e arquivos objeto) via SIGAA
 * **Datas**
-  * 07/12/22: envio parcial (todos os comandos exceto os relacionados a arquivos)
-  * 12/12/22: entrega completa
-  * 08/12/22 e 13/12/22: entrevistas
+  * 20/11/23: envio U2 (comandos 1 a 6)
+  * 12/12/23: entrega completa
+  * 14/12/23 e 19/12/23: entrevistas
 
 # 4. Avaliação
 
 * O trabalho será avaliado sob os critérios indicados no arquivo **avaliacao**
 * **apenas trabalhos acompanhados do arquivo avaliacao preenchido serão avaliados**
-* **a ausência dos prints de tela implicam em redução de 50% da nota** 
+* **a ausência dos prints de tela implicam em redução de 50% da nota**
+* Entregas atrasadas não serão aceitas
 
 ## Authorship
 
@@ -126,6 +128,6 @@ Saindo...
 
 **Code Snippets: Julio Melo, [julio@imd.ufrn.br](mailto:julio@imd.ufrn.br)**
 
-**Current adaptation: Renan Moioli, [renan.moioli@imd.ufrn.br](mailto:renan.moioli@imd.ufrn.br)**
+**Extensions and current adaptation: Renan Moioli, [renan.moioli@imd.ufrn.br](mailto:renan.moioli@imd.ufrn.br)**
 
 
