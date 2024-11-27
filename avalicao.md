@@ -55,7 +55,7 @@
   - 10: implementado e funcional 
   - bonus +10: implementado com uso de método virtual
 
-- Implementação e uso do comando `save-concessionaria` e `load-concessionaria` | **... / 30**
+- Implementação e uso do comando `save-concessionaria` e `load-concessionaria` | **... / 15**
   - 0: não implementado
   - 15: ambos os comandos implementados e funcionais
   
